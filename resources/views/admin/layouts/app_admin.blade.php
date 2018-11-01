@@ -18,6 +18,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/assets/font-awesome/css/font-awesome.css">
 </head>
 <body>
     <div id="app">
@@ -36,7 +38,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Category</a></li>
+                                <li><a href="{{route('admin.category.index')}}">Category</a></li>
                                 <li><a href="#">Materials</a></li>
                             </ul>
                         </li>
